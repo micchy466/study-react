@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Index Page</title>
+        <title>About Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          index Page
+          About Page
         </h1>
 
         <p className={styles.description}>
@@ -23,7 +23,6 @@ export default function Home() {
 
         <Links />
       </main>
-
       <Footer />
     </div>
   )
